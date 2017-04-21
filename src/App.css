@@ -1,0 +1,68 @@
+.app-window{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  border: 2px solid lightcyan;
+}
+
+.sidebar{
+  height: 100%;
+  flex: 0.25;
+  min-width: 320px;
+  background: whitesmoke;
+  border: 2px solid lightcyan;
+}
+
+.chat-window{
+  flex: 1;
+  display: flex;
+  background: lightgrey;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-messages{
+  background: lightpink;
+  height: 90%;
+  border: 2px solid lightcyan;
+}
+
+.message-list {
+  list-style-type: none;
+}
+
+.user-name{
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  color: white; 
+  padding-right: 10px;
+}
+
+.chat-input{
+  background: skyblue;
+  height: 10%;
+  border: 2px solid lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-input input {
+  align-self: flex-end;
+  height: 100%;
+  flex: 1;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.chat-input button {
+  height: 100%;
+  background: skyblue;
+  color: white;
+  font-size: 30px;
+  flex: 0.2;
+  border: 4px solid skyblue;
+}
+
